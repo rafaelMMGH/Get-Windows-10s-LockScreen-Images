@@ -1,9 +1,22 @@
 @echo off
+echo.
+echo ########################################################
+echo.
+echo.
+echo  Save Windows 10's Lock Screen Spotlight Images
+echo  (C) https://github.com/rafaelMMGH 2020
+echo.
+echo.
+echo ########################################################
+
+echo.
+echo.
+
 setlocal
 :: Size is in bytes 250 KB
 set "min.size=250000"
 :: Folder name
-set /P name=Enter folder name: 
+set /P name=Enter folder name (C:\Users\%username%\Desktop\): 
 :: Path to create a folder 
 set folder=C:\Users\%username%\Desktop\%name%
 
